@@ -1,4 +1,4 @@
-## Hash_MobileNeRF
+## MobileNeRF with Hash Encoding
 
 ### 1. 데이터셋 파일 경로
 
