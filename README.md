@@ -1,4 +1,4 @@
-## pose
+## Hash_MobileNeRF
 
 ### 1. 데이터셋 파일 경로
 
