@@ -4,7 +4,7 @@
 
   코드 경로: ./ <br>
   데이터 경로: ./datasets <br>
-  학습 모델 경로: ./weights <br>
+  학습된 모델의 경로: ./weights <br>
   샘플 경로: ./samples <br>
 
 ****
