@@ -44,7 +44,7 @@
 
 ### 5. 참고
 
-* Original src.: https://github.com/microsoft/singleshotpose
+* Original src.: https://github.com/google-research/jax3d/tree/main/jax3d/projects/mobilenerf
       
       https://www.dropbox.com/s/lvmr4ssdyo2ham3/singleshotpose-master.zip?dl=0
       
