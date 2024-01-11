@@ -45,7 +45,7 @@
 ### 5. 참고
 
 * Original src.: https://github.com/google-research/jax3d/tree/main/jax3d/projects/mobilenerf
-* Original src.: https://github.com/NVlabs/instant-ngp.git
+* Hash Encoding: https://github.com/NVlabs/instant-ngp.git
       
       https://www.dropbox.com/s/lvmr4ssdyo2ham3/singleshotpose-master.zip?dl=0
       
