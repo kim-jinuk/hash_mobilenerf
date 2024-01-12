@@ -23,8 +23,23 @@
 ****
 
 ### 3. 학습 (Shell script)
- 
-      sh test.sh {데이터명}
+
+      python Geolocation.py data_dir
+      colmap automatic_reconstructor \
+          --image_path $DATASET_PATH/images \
+          --workspace_path $DATASET_PATH \
+          --use_gpu 1 \
+          --gpu_index "0,1" \
+          --quality $quality_type
+
+      python img2poses.py data_dir
+      python image_resize.py data_dir
+      python stage1_hash.py data_dir
+      python stage2_hash.py data_dir
+      
+학습은 COLMAP(카메라 포즈 추출) -> 학습 1단계 -> 학습 2단계 -> 학습 3단계로 진행되며, 아래 쉘 스크립트 명령어를 통해 모든 과정을 통합하여 학습할 수 있다.
+
+      sh test.sh data_dir
 
 ****
 
