@@ -10,11 +10,15 @@
 ****
 
 
-### 2. .Json 파일 -> .txt 파일 변환 및 test.txt, train.txt 생성 (각티슈[tissue] 예시)
+### 2. 설치
 
-  * data = "tissue"
-  
-      python making_txtlabels.py
+      conda create --name mobilenerf python=3.10 -y; conda activate mobilenerf
+      conda install pip; pip install --upgrade pip
+      pip install -r requirements.txt
+      pip install tqdm
+      pip install -U "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+      pip install flax==0.5.1
+      pip install -U "jax[cuda12_pip]"==0.4.13 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
       
 ****
 
