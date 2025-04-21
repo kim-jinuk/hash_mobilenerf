@@ -1,5 +1,8 @@
 ## MobileNeRF with Hash Encoding
-
+### 0. 개요
+  본 프로젝트는 빠른 학습 및 실시간 렌더링을 위해 MobileNeRF + InstantNGP을 재구성하여 구현하였습니다.
+  ![teaser](Asset/Qualitative.png)
+  ![teaser](Asset/Quantitative.png)
 ### 1. 데이터셋 파일 경로
 
   코드 경로: ./ <br>
