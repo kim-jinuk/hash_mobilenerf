@@ -1,6 +1,6 @@
 ## MobileNeRF with Hash Encoding
 ### 0. 개요
-  본 연구는 드론 이미지를 기반으로 지형, 건물 등 런타임 환경 객체 모델의 현태 및 텍스쳐를 NeRF AI로 실시간으로 재구성하고 실제 공간 좌표를 추출하여 Octopus 시뮬레이터에 적용하는 시스템을 개발한다.
+  본 연구는 드론 이미지를 기반으로 지형, 건물 등 런타임 환경 객체 모델의 현태 및 텍스쳐를 NeRF AI로 실시간으로 재구성하고 실제 공간 좌표를 추출하여 언리얼 엔진 기반의 분산 클라이언트 다중 드론 시뮬레이터에 적용하는 시스템을 개발한다.
   
   ![teaser](Asset/Qualitative.png)
   ![teaser](Asset/Quantitative.png)
