@@ -1,8 +1,10 @@
 ## MobileNeRF with Hash Encoding
 ### 0. 개요
-  본 프로젝트는 빠른 학습 및 실시간 렌더링을 위해 MobileNeRF + InstantNGP을 재구성하여 구현하였습니다.
+  본 연구는 드론 이미지를 기반으로 지형, 건물 등 런타임 환경 객체 모델의 현태 및 텍스쳐를 NeRF AI로 실시간으로 재구성하고 실제 공간 좌표를 추출하여 Octopus 시뮬레이터에 적용하는 시스템을 개발한다.
+  
   ![teaser](Asset/Qualitative.png)
   ![teaser](Asset/Quantitative.png)
+  
 ### 1. 데이터셋 파일 경로
 
   코드 경로: ./ <br>
